@@ -1,0 +1,174 @@
+/* Colores Pastel */
+:root {
+    --primary-color: #a2c2e6; /* Azul pastel */
+    --secondary-color: #f7d6e0; /* Rosa pastel */
+    --accent-color: #f5e1da; /* Crema pastel */
+    --background-color: #f9f9f9; /* Gris claro pastel */
+    --text-color: #333; /* Color de texto oscuro para contraste */
+    --white-color: #ffffff; /* Blanco para contrastes */
+}
+
+/* Navegación */
+.header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+/* Sección Hero */
+.hero {
+    background: url('fondo-hero.jpg') no-repeat center center/cover;
+    color: var(--white-color);
+    height: 80vh; /* Reducido para menos espacio vertical */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Añadido padding para mantener el contenido ajustado */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Tamaño de fuente ajustado para menos espacio */
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem; /* Tamaño de fuente ajustado para menos espacio */
+    margin-bottom: 20px; /* Reducido para menos espacio entre párrafos */
+}
+
+.hero button {
+    margin: 5px; /* Reducido margen entre botones */
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Sección Sobre Mí */
+.sobre-mi {
+    padding: 50px;
+    background-color: var(--accent-color);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.sobre-mi h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Sección Proyectos */
+.proyectos {
+    padding: 50px;
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.proyecto {
+    margin-bottom: 20px;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Sección DER */
+.der {
+    padding: 50px;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.der h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.der ul {
+    text-align: left;
+    display: inline-block;
+}
+
+/* Sección Contacto */
+.contacto {
+    padding: 50px;
+    background-color: var(--accent-color);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.contacto form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contacto input, .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+.contacto button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 20px;
+    text-align: center;
+}
